@@ -1,0 +1,41 @@
+{
+  "name": "responsive-web-app",
+  "version": "1.0.0",
+  "description": "A responsive web application for live streaming channels.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "live streaming",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "hls.js": "^1.5.18",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "eslint": "^7.32.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
